@@ -5,7 +5,6 @@ import loadingReducer from "./loadingSlice";
 const initialCart = JSON.parse(localStorage.getItem("xe_dap_cart")) || [];
 const initialAuth = { popUp: false };
 
-//2 taọ slice
 const initialPopup = { popUp: false, payload: [] };
 
 //2 taọ slice
